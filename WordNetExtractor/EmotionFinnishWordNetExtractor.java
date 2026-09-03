@@ -49,9 +49,9 @@ public class EmotionFinnishWordNetExtractor {
         //FinnWordNet-dl 2.0
         //http://urn.fi/urn:nbn:fi:lb-2014052714
         //read noun.feeling
-        readNouns(args[1]);
+        readNouns("noun.feeling");
         //read verb.emotion
-        readVerbs(args[2]);
+        readVerbs("verb.emotion");
         //make 3 letter abbreviations of the emotion words
         makeAbbreviations();
         //map the new words to the existing categories
