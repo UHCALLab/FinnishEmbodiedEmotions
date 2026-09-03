@@ -7,7 +7,9 @@ The tool is used to add emotion words to an existing list of emotions (EmotionWo
 To start the tool on command line:
 
 ```
-java -jar EmotionFinnishWordNetExtractor.jar <path_to>EmotionWords_withAdditionsFromData.csv
+java -jar EmotionFinnishWordNetExtractor.jar <path_to>EmotionWords_withAdditionsFromData.csv > mappedEmotionWords.csv
 ```
+
+The emotion word lists maps all the different forms of the same word to one emotional lemma representing them. The resulting list _mappedEmotionWords.csv_ can be used to produce the data that was used in the analysis of bodily emotions as described in the article. 
 
 Tuovila, S. (2005). _Kun on tunteet: Suomen kielen tunnesanojen semantiikkaa_. Oulu: Oulu University Press.
