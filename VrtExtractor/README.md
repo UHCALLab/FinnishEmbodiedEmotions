@@ -16,5 +16,12 @@ Start the tool from the command line:
 
 ```
 java -jar EmotionsFinnishVrtExtractor.jar <path_to_the directory_with_all_the_vrt_files>
+```
+
+The resulting file _sentences.txt_ contains one sentence per line. Only lines that have no automatically detectable words that had been broken by the OCRing and that have at least 10 words have been included. In the beginning of each line is the name of the newspaper/periodical (as they are in the paperNames.txt list). Also included is the label-tag with the page_nr-tag from the <text> line giving information on the text. When using the PMI-Embeddings tool the sentences are first stripped of the paper information (i.e. the first 2 columns) and then arranged one word per line with a '#' between sentences. The command to do this on the unix command line is:
+
+```
+cut -d$'\t' -f3 sentences.txt | tr '[:space:]' '[\n*]' | sed 's/^$/#/g' > <desired_name_of_file>
+```
 
 
