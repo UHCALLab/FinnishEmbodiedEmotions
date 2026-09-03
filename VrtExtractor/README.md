@@ -8,7 +8,7 @@ The data is available in the so-called VeRticalized Text (VRT) format. We used t
 
 The tool (EmotionsFinnishVrtExtractor.jar) assumes the following files in the directory where the tool is launched from:
 - finnishStopWords.txt which is a list of stop words from the Natural Language Toolkit (NLTK)
-- mappedEmotionWords.csv contains the emotion words from Tuovila, the data, and the FinnWordNet. All the forms of the same word have been mapped to one lemma.
+- mappedEmotionWords.csv contains the emotion words from Tuovila, the data, and the FinnWordNet. All the forms of the same word have been mapped to one lemma. This file has to first be created by using the WordNet extractor. Alternatively change the name of the file mappedEmotionWords__example to mappedEmotionWords.csv.
 - wantedPapers.txt is a list of the newspapers and periodicals that were chosen to represent the corpus. Only sentences from these papers are used.
 - paperNames.txt is a list of the actual paper names for each sentence in the corpora. The vrt files contain errors, but these names have been extracted by using the issn numbers.
 
