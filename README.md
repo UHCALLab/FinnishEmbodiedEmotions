@@ -4,4 +4,4 @@ This repository contains the codes and instructions to create the data and its a
 
 Svärd et al., Embodied Emotions in the Finnish Language Corpus.
 
-The WordNetExtractor should be used first to create the final list of emotion words. Alternative use the list in the folder VrtExtractor.
+The WordNetExtractor should be used first to create the final list of emotion words. Alternatively use the list mappedEmotionWords.csv in the folder VrtExtractor.
