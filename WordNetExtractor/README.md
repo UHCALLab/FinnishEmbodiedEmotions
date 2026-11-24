@@ -17,4 +17,5 @@ The output is in the same format as the existing list of emotion words, i.e. the
 The emotion word list _EmotionWords_withAdditionsFromData_ maps all the different forms of the same word to one emotional lemma representing them.  
 
 FinnWordNet = University of Helsinki (2010). The Downloadable Version of FinnWordNet 2.0 [data set]. Kielipankki. https://urn.fi/urn:nbn:fi:lb-2016042503.
+
 Tuovila, S. (2005). _Kun on tunteet: Suomen kielen tunnesanojen semantiikkaa_. Oulu: Oulu University Press.
