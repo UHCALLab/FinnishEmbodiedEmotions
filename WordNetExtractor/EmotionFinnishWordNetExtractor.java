@@ -401,6 +401,7 @@ public class EmotionFinnishWordNetExtractor {
     private static void printAsTable() {
         String emotionToUse, category;
         ArrayList<String> otherEmotions;
+        System.out.println("Anger,Fear,Disgust,Happiness,Sadness,Surprise,Neutral,Anxiety,Love,Depression,Contempt,Pride,Shame,Jealousy,");
         for (Map.Entry<String, ArrayList<String>> entry : emotionsWithDerivatives.entrySet()) {
             emotionToUse = entry.getKey();
             category = emotion2cat.get(emotionToUse);
