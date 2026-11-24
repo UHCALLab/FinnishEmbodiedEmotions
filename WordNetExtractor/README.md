@@ -14,7 +14,7 @@ java -jar EmotionFinnishWordNetExtractor.jar <path_to>EmotionWords_withAdditions
 
 The output is in the same format as the existing list of emotion words, i.e. the tool assigns the new words in one of the existing categories. This time the categories are in English. The resulting list was manually modified before used to produce the data that was used in the analysis of bodily emotions as described in the article. Some of the words are in two categories and these were combined and mapped to just one lemma (see _emotionsAfterWordNet.pdf_). Additionally, the category information was removed. See _../VrtExtractor/mappedEmotionWords.csv_
 
-The emotion word list _EmotionWords_withAdditionsFromData_ maps all the different forms of the same word to one emotional lemma representing them.  
+_________________________
 
 FinnWordNet = University of Helsinki (2010). The Downloadable Version of FinnWordNet 2.0 [data set]. Kielipankki. https://urn.fi/urn:nbn:fi:lb-2016042503.
 
